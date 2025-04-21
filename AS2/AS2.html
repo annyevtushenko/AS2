@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/fonts/bootstrap-icons.woff2">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/splide.min.css">
 </head>
 
 <body>
@@ -60,7 +62,10 @@
 
     <!-- section 2 -->
     <div class="bg-secondary bg-opacity-25">
-        <nav class="container py-5">
+        <nav class="container py-5" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
             <div class="text-danger h2 text-center pb-5">We'll help manage your business</div>
             <div class="row justify-content-center g-3">
                 <div class="col-3">
@@ -121,7 +126,8 @@
                     <img src="img/0201.jpg" alt="" class="h-75 w-75 rounded-circle">
                 </div>
                 <div class="col-8">
-                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
+                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure
+                        aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
                     <div class="h6 text-white pt-3">NAT REYNOLDS</div>
                 </div>
             </div>
@@ -132,18 +138,20 @@
                     <img src="img/0202.jpg" alt="" class="h-75 w-75 rounded-circle">
                 </div>
                 <div class="col-8">
-                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
+                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure
+                        aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
                     <div class="h6 text-white pt-3">CELIA ALMEDA</div>
                 </div>
             </div>
         </div>
-        <div class="bg-primary bg-opacity-75 rounded-4 w-50 m-auto mb-4">
+        <div class="bg-primary bg-opacity-75 rounded-4 w-50 m-auto">
             <div class="row justify-content-center p-4">
                 <div class="col-4">
                     <img src="img/0203.jpg" alt="" class="h-75 w-75 rounded-circle">
                 </div>
                 <div class="col-8">
-                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
+                    <div class="text-white">Ipsum, dolor sit amet consectetur adipisicing elit. Commodi iusto vero, iure
+                        aliquam eaque, totam eveniet assumenda dolores labore quos maxime nulla saepe harum in.</div>
                     <div class="h6 text-white pt-3">BOB ROBERTS</div>
                 </div>
             </div>
@@ -151,14 +159,22 @@
     </nav>
 
     <!-- footer -->
-    <nav class="container pb-5">
+    <nav class="container pb-4">
         <div class="text-center my-5">
             <span>Images from</span>
             <span><a href="#" class="text-decoration-none border-bottom text-black border-black">Freepic</a>
             </span>
         </div>
     </nav>
+    
+    <script src="js/splide.min.js"></script>
+    <script src="js/aos.js"></script>
 
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js.map"></script>
